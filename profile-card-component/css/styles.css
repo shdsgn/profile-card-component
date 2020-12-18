@@ -1,0 +1,130 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  color: hsl(229, 23%, 23%);
+}
+
+.top {
+  position: absolute;
+  right: 700px;
+  bottom: 200px;
+}
+
+.bottom {
+  position: absolute;
+  left: 600px;
+  top: 350px;
+}
+
+h2 {
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 70px;
+}
+
+hr {
+  position: relative;
+  top: 10px;
+  border-style: solid;
+  border-width: 0.2px 0 0 0;
+  border-color: #E8E8E8;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+th {
+  padding: 0 30px 5px 30px;
+}
+
+td {
+  font-size: 0.7em;
+}
+
+/***PROFILE CARD ***/
+.profile-card {
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  right: 500px;
+}
+
+/***TOP CONTAINER ***/
+.top-container {
+  margin: 100px auto 0 auto;
+  height: 140px;
+  width: 350px;
+}
+
+.pattern-card {
+  border-radius: 10px 10px 0 0;
+  width: 350px;
+}
+
+.age {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.london {
+  margin-top: 0;
+  font-size: 0.9em;
+}
+
+/***MIDDLE CONTAINER ***/
+.middle-container {
+  position: relative;
+  width: 350px;
+  margin: auto;
+  height: 175px;
+  background-color: white;
+}
+
+.victor {
+  position: absolute;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  margin: 0 auto 5px auto;
+}
+
+/***BOTTOM CONTAINER ***/
+.bottom-container {
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  margin: auto;
+  background-color: white;
+  width: 350px;
+  height: 60px;
+}
+
+.K {
+  display: inline-block;
+  margin: 75px 30px auto 30px;
+}
+
+.table {
+  position: absolute;
+  margin: auto 0 auto;
+  left: 30px;
+  right: 30px;
+}
+
+.attributes {
+  color: white;
+  line-height: 1.5;
+  margin: 40px auto;
+}
